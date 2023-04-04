@@ -1,0 +1,35 @@
+.carrossel{
+    display:flex;
+    margin: center;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 90%;
+    height: 280px;
+    
+}
+.painel{
+    display: flex;
+    margin: center;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.space{
+    background-color: #F8B654;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.container-livros{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
