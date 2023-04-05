@@ -8,27 +8,27 @@ import CarEditoras from '../../Assets/Multicarousel(editoras)/multicarousel';
 
 function Home(){
     return(
-        <div>
+        <div className='div-home'>
           <div className='space'>
           <Carousel variant='dark' className='carrossel'>
             <Carousel.Item interval={3000}>
               <img 
                 className='painel'
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+                src="https://picsum.photos/1280/720?random=1"
                 alt="Image 1"
               />
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img 
                 className='painel'
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+                src="https://picsum.photos/1280/720?random=2"
                 alt="Image 2"
               />
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img 
-                className='painel'
-                src="https://thumbs.dreamstime.com/b/carimbo-de-borracha-do-exemplo-84906823.jpg"
+                className='painel' 
+                src="https://picsum.photos/1280/720?random=3" 
                 alt="Image 3"
               />
             </Carousel.Item>

@@ -9,7 +9,7 @@ const CarEditoras = () => {
     <Carousel cols={7} rows={1} gap={35}>
       
     <Carousel.Item >
-        <img className='editora' src="https://picsum.photos/800/600?random=1" />
+        <img className='editora' src="https://picsum.photos/600/600?random=1" />
       </Carousel.Item>
       <Carousel.Item>
         <img className='editora' src="https://picsum.photos/800/600?random=2" />

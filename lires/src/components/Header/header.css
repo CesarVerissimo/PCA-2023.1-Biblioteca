@@ -1,5 +1,5 @@
 header{
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -13,7 +13,7 @@ header{
     cursor: pointer;
     color: black;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-left: 20px;
 }
 
@@ -22,14 +22,15 @@ header{
     height: 100%;
     text-decoration: none;
     cursor: pointer;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 20px;
     color: black;
     
 }
 
 .botoes-header:hover{
     background-color: #b6720d;
-    color: black;
+    color: #F8B654;
 }
 
 .logo:hover{
@@ -48,18 +49,43 @@ header{
 
 .navegar:hover{
     background-color: #b6720d;
+    color: #F8B654;
+}
+
+.dropdown-nav{
+    background-color: #E89212;
+    border-radius: 5px;
+    border: none;
+}
+
+.dropdown-item{
     color: black;
 }
 
-.pesquisa{
-    width: 25%;
+.dropdown-item:hover{
+    background-color: #b6720d;
+    color: #F8B654;
+}
+
+.div-search{
     height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa{
+    width: 280px;
     font-size: 10pt;
     border: 1px black solid;
     border-radius: 5px;
     padding: 5px;
     outline: none;
-    margin-left: 40px;
+}
+
+.btn-search{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
 }
 
 .user{

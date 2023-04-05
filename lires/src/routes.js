@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Autores from './pages/Autores';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Copyright from './components/Footer/copyright';
 
 function RoutesApp(){
     return(
@@ -14,6 +15,7 @@ function RoutesApp(){
                 <Route path="/autores" element={<Autores/>}/>
             </Routes>
         <Footer/>
+        <Copyright/>
         </BrowserRouter>
     );
 }

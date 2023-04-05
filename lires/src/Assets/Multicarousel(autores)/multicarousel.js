@@ -9,7 +9,7 @@ const CarAutores = () => {
     <Carousel  cols={7} rows={1} gap={15}>
       
       <Carousel.Item >
-        <img className='autor' src="https://picsum.photos/800/600?random=1" />
+        <img className='autor' src="https://picsum.photos/600/600?random=1" />
       </Carousel.Item>
       <Carousel.Item>
         <img className='autor' src="https://picsum.photos/800/600?random=2" />

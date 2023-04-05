@@ -8,7 +8,7 @@ const CarLivros= () => {
     <Carousel cols={7} rows={1} gap={15} >
       
     <Carousel.Item >
-        <img className='livro' src="https://picsum.photos/800/600?random=1" />
+        <img className='livro' src="https://picsum.photos/800/1100?random=1" />
       </Carousel.Item>
       <Carousel.Item>
         <img className='livro' src="https://picsum.photos/800/600?random=2" />
