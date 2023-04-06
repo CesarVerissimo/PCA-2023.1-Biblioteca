@@ -26,9 +26,9 @@ function Home(){
               />
             </Carousel.Item>
             <Carousel.Item interval={3000}>
-              <img 
+              <img
                 className='painel' 
-                src="https://picsum.photos/1280/720?random=3" 
+                src="https://picsum.photos/1280/720?random=3"
                 alt="Image 3"
               />
             </Carousel.Item>

@@ -1,0 +1,87 @@
+.card-autor{
+    border: 1.5px solid #B3B3B3;
+    box-shadow: 1px 1px 8px #B3B3B3;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.card-autor:hover{
+    transition: 0.3s;
+    background-color: #F2F2F2;
+}
+
+.link-card-autor{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link-card-autor:hover{
+    transition: 0.3s;
+    color: #E89212;
+}
+
+.lista-autor{
+    padding: 0px;
+    padding-left:10px;
+    padding-right: 25px;
+}
+
+.nome-autor{
+    font-weight: bold;
+    font-size: 18pt;
+    padding-bottom: 20px;
+}
+
+li{
+    list-style: none;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.img-card-autor{
+    border-radius: 50%;
+}
+
+.img-card-livro{
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+}
+
+.i-pub, .i-leit, .i-seg{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.btns-pags{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 14px;
+}
+
+.btn-pag{
+    border-radius: 3px;
+    border-color: #B3B3B3;
+    background-color: white;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}

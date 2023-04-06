@@ -1,15 +1,16 @@
 header{
-    display:inline-flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 60px;
     background-color: #E89212;
+    font-size: 18px;
 }
 
 .logo{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 32px;
     cursor: pointer;
     color: black;
     font-weight: bold;
@@ -18,17 +19,20 @@ header{
 }
 
 .botoes-header{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     text-decoration: none;
     cursor: pointer;
-    padding: 10px;
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: black;
     
 }
 
 .botoes-header:hover{
+    transition: 0.3s;
     background-color: #b6720d;
     color: #F8B654;
 }
@@ -39,17 +43,22 @@ header{
 
 .navegar{
     display: block;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     text-decoration: none;
     color: black;
     border: none;
     border-radius: 0;
-    padding-top: 5px;
+    margin: 0;
+    font-size: 18px;
 }
 
 .navegar:hover{
+    transition: 0.3s;
     background-color: #b6720d;
     color: #F8B654;
+    border: none;
 }
 
 .dropdown-nav{
@@ -89,8 +98,7 @@ header{
 }
 
 .user{
-    padding-bottom: 10px;
-    display: inline;
+    display: inline-flex;
     align-content: center;
     font-size: 50px;
 }
