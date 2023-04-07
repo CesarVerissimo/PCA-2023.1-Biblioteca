@@ -5,6 +5,7 @@ import Autores from './pages/Autores';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Copyright from './components/Footer/copyright';
+import Editoras from './pages/Editoras';
 
 function RoutesApp(){
     return(
@@ -13,6 +14,7 @@ function RoutesApp(){
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/autores" element={<Autores/>}/>
+                <Route path="/editoras" element={<Editoras/>}/>
             </Routes>
         <Footer/>
         <Copyright/>

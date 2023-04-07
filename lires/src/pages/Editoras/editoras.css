@@ -1,19 +1,20 @@
-.card-autor{
+.card-editora{
     border: 1.5px solid #B3B3B3;
     box-shadow: 1px 1px 8px #B3B3B3;
     border-radius: 10px;
     flex-direction: row;
     margin-top: 30px;
-    flex-direction: column;
+    width: 100%;
 }
 
-.card-autor:hover{
+.card-editora:hover{
     transition: 0.3s;
     background-color: #F2F2F2;
 }
 
-.link-card-autor{
+.link-card-editora{
     display: flex;
+    justify-content: center;
     color: black;
     text-decoration: none;
     align-items: center;
@@ -22,22 +23,22 @@
     padding-right: 20px;
 }
 
-.link-card-autor:hover{
+.link-card-editora:hover{
     transition: 0.3s;
     color: #E89212;
 }
 
-.info-autor{
+.info-editora{
     width: 280px;
 }
 
-.lista-autor{
+.lista-editora{
     padding: 0px;
-    padding-left:10px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 0px;
 }
 
-.nome-autor{
+.nome-editora{
     font-weight: bold;
     font-size: 18pt;
     padding-bottom: 20px;
@@ -45,12 +46,14 @@
 
 li{
     list-style: none;
-    display: block;
+    display: list-item;
     padding-bottom: 10px;
 }
 
-.img-card-autor{
-    border-radius: 50%;
+.img-card-editora{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
 }
 
 .img-card-livro{
@@ -61,7 +64,7 @@ li{
     border-radius: 20px;
 }
 
-.i-pub, .i-leit, .i-seg{
+.i-pub, .i-leit, .i-seg, .i-esc{
     width: 18px;
     height: 18px;
     margin-right: 10px;

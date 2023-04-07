@@ -1,23 +1,24 @@
 import {Link} from 'react-router-dom';
-import './autores.css';
-import {FaBookReader, FaUserFriends, FaBook} from "react-icons/fa";
+import './editoras.css';
+import {FaBookReader, FaUserFriends, FaBook, FaPen} from "react-icons/fa";
 
-function Autores(){
+function Editoras(){
     return(
-        <div className='pag-autor'>
+        <div className='pag-editora'>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=25"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora Atual</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -37,18 +38,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=24"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Bertrand Russell</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora do Brasil</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -68,18 +70,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=6"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Saraiva</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -99,18 +102,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=27"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora Atual</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -130,18 +134,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=35"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora Atual</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -161,18 +166,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=56"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora Atual</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -192,18 +198,19 @@ function Autores(){
                 </Link>
             </div>
 
-            <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="#">
                     <img
-                    className='img-card-autor'
+                    className='img-card-editora'
                     src="https://picsum.photos/180/180?random=46"
                     />
-                    <div className='info-autor'>
-                        <ul className='lista-autor'>
-                            <li className='nome-autor'>Ziraldo Alves Pinto</li>
-                            <li><FaBook className='i-pub'/>138 publicações</li>
+                    <div className='info-editora'>
+                        <ul className='lista-editora'>
+                            <li className='nome-editora'>Editora Atual</li>
+                            <li><FaBook className='i-pub'/>138 livros</li>
                             <li><FaBookReader className='i-leit'/>2895 leitores</li>
                             <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaPen className='i-esc'/>156 escritores</li>
                         </ul>
                     </div>
                     <div>
@@ -234,4 +241,4 @@ function Autores(){
     )
 }
 
-export default Autores;
+export default Editoras;
