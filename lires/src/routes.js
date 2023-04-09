@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Copyright from './components/Footer/copyright';
 import Editoras from './pages/Editoras';
+import Grupos from './pages/Grupos';
 
 function RoutesApp(){
     return(
@@ -15,6 +16,7 @@ function RoutesApp(){
                 <Route path="/" element={<Home/>}/>
                 <Route path="/autores" element={<Autores/>}/>
                 <Route path="/editoras" element={<Editoras/>}/>
+                <Route path="/grupos" element={<Grupos/>}/>
             </Routes>
         <Footer/>
         <Copyright/>
