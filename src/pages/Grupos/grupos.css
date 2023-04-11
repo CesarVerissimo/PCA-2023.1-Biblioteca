@@ -1,0 +1,129 @@
+.div-titulo-grupos{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.titulo-grupos{
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+
+.fil-grupos{
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px;
+    color: black;
+    background-color: #F8B654;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.fil{
+    color: black;
+    border: none; 
+}
+
+.drop-fil-grupos{
+    background-color: #F8B654;
+}
+
+.dropdown-fil-item{
+    color: black;
+    
+}
+
+.dropdown-fil-item:hover{
+    background-color: #E89212;
+}
+
+.dados-grupo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-grupo{
+    border: 1.5px solid #B3B3B3;
+    box-shadow: 1px 1px 8px #B3B3B3;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.card-grupo:hover{
+    transition: 0.3s;
+    background-color: #F2F2F2;
+}
+
+.link-card-grupo{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.link-card-grupo:hover{
+    transition: 0.3s;
+    color: #E89212;
+}
+
+.img-card-grupo{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.titulo-grupo{
+    font-weight: bold;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.desc-grupo{
+    width: 300px;
+    height: 100%;
+}
+
+.lista-grupo{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-grupo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+}
+
+.linha{
+    border: 0.01px solid #B3B3B3;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    opacity: 1;
+    display: block;
+}
+
+.i-mem, .i-ass, .i-cal{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+.div-home{
+    font-size: 20px;
+}
+
+.carrossel{
+    display:flex;
+    margin: center;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.painel{
+    display: flex;
+    margin: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.space{
+    background-color: #F8B654;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.container-livros{
+    padding-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
