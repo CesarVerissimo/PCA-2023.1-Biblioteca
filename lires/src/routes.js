@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Copyright from './components/Footer/copyright';
 import Editoras from './pages/Editoras';
 import Grupos from './pages/Grupos';
+import Leitores from './pages/Leitores';
 
 function RoutesApp(){
     return(
@@ -17,6 +18,7 @@ function RoutesApp(){
                 <Route path="/autores" element={<Autores/>}/>
                 <Route path="/editoras" element={<Editoras/>}/>
                 <Route path="/grupos" element={<Grupos/>}/>
+                <Route path="/leitores" element={<Leitores/>}/>
             </Routes>
         <Footer/>
         <Copyright/>
