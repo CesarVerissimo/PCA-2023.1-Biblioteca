@@ -1,0 +1,20 @@
+.container-total-livros-lidos{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 650px;
+}
+
+.container-total-livros-lidos .bhHnmT{
+    margin: 0;
+}
+
+.container-total-livros-lidos span{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.img-grupos-user{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}

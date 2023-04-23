@@ -120,6 +120,7 @@
     flex-grow: 0;
     opacity: 1;
     display: block;
+    min-width: 1px;
 }
 
 .i-mem, .i-ass, .i-cal{

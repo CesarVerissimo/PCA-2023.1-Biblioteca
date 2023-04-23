@@ -8,6 +8,10 @@ import Copyright from './components/Footer/copyright';
 import Editoras from './pages/Editoras';
 import Grupos from './pages/Grupos';
 import Leitores from './pages/Leitores';
+import BookPage from './pages/BookPage';
+import AuthorPage from './pages/AuthorPage';
+import EditPage from './pages/EditPage';
+import UsersPage from './pages/UsersPage';
 
 function RoutesApp(){
     return(
@@ -19,6 +23,10 @@ function RoutesApp(){
                 <Route path="/editoras" element={<Editoras/>}/>
                 <Route path="/grupos" element={<Grupos/>}/>
                 <Route path="/leitores" element={<Leitores/>}/>
+                <Route path="/bookpage" element={<BookPage/>}/>
+                <Route path="/authorpage" element={<AuthorPage/>}/>
+                <Route path="/editpage" element={<EditPage/>}/>
+                <Route path="/userspage" element={<UsersPage/>}/>
             </Routes>
         <Footer/>
         <Copyright/>

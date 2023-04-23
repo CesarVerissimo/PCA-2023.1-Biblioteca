@@ -20,6 +20,7 @@ function Header(){
                     <Dropdown.Item href="#">Biologia</Dropdown.Item>
                     <Dropdown.Item href="#">Colocar mais coisa</Dropdown.Item>
                 </Dropdown.Menu>
+
             </Dropdown>
 
             <Link className='botoes-header' to="/autores">Autores</Link>

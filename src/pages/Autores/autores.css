@@ -4,7 +4,7 @@
     border-radius: 10px;
     flex-direction: row;
     margin-top: 30px;
-    flex-direction: column;
+    width: 100%;
 }
 
 .card-autor:hover{
@@ -15,6 +15,7 @@
 .link-card-autor{
     display: flex;
     color: black;
+    justify-content: center;
     text-decoration: none;
     align-items: center;
     gap: 20px;
@@ -49,16 +50,20 @@ li{
     padding-bottom: 10px;
 }
 
-.img-card-autor{
-    border-radius: 50%;
+.container-card-livros{
+    display: flex;
+    gap: 10px;
 }
 
-.img-card-livro{
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 0px;
-    border-radius: 20px;
+.container-card-livros Livro{
+    width: 180px;
+    height:280px;
+    border-radius: 15px;
+}
+    
+
+.img-card-autor{
+    border-radius: 50%;
 }
 
 .i-pub, .i-leit, .i-seg{

@@ -1,59 +1,61 @@
-import React from 'react';
-import Carousel from 'better-react-carousel';
+import Livro from '../Capas/exibicao';
 import './multicarousel.css'
+import Carousel from 'better-react-carousel';
+import {Link} from 'react-router-dom';
 
 const CarLivros= () => {
+
   return (
     <div className='carlivros'>
-    <Carousel cols={7} rows={1} gap={15} >
+    <Carousel cols={7} rows={1} gap={15}>
       
-    <Carousel.Item >
-        <img className='livro' src="https://picsum.photos/800/1100?random=1" />
+    <Carousel.Item className='carousel-item'>
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=2" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=3" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=4" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=5" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=6" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=7" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=8" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=9" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=10" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=11" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=12" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=13" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=14" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=15" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
       <Carousel.Item>
-        <img className='livro' src="https://picsum.photos/800/600?random=16" />
+        <Link to="/bookpage"><Livro/></Link>
       </Carousel.Item>
     </Carousel>
     </div>

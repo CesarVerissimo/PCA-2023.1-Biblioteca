@@ -1,34 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel  from 'react-bootstrap/Carousel';
 import './home.css';
 import CarLivros from '../../Assets/Multicarousel(livros)/multicarousel';
 import CarAutores from '../../Assets/Multicarousel(autores)/multicarousel';
 import CarEditoras from '../../Assets/Multicarousel(editoras)/multicarousel';
+import BookPage from '../BookPage';
 
 function Home(){
+
     return(
         <div className='div-home'>
           <div className='space'>
           <Carousel variant='dark' className='carrossel'>
-            <Carousel.Item interval={3000}>
+            <Carousel.Item interval={2000}>
               <img 
                 className='painel'
                 src="https://picsum.photos/1280/720?random=1"
                 alt="Image 1"
               />
             </Carousel.Item>
-            <Carousel.Item interval={3000}>
+            <Carousel.Item interval={2000}>
               <img 
                 className='painel'
-                src="https://picsum.photos/1280/720?random=2"
+                src="https://picsum.photos/1280/720?random=3"
                 alt="Image 2"
               />
             </Carousel.Item>
-            <Carousel.Item interval={3000}>
+            <Carousel.Item interval={2000}>
               <img
                 className='painel' 
-                src="https://picsum.photos/1280/720?random=3"
+                src="https://picsum.photos/1280/720?random=5"
                 alt="Image 3"
               />
             </Carousel.Item>
