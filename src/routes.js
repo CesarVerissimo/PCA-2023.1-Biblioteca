@@ -12,6 +12,7 @@ import BookPage from './pages/BookPage';
 import AuthorPage from './pages/AuthorPage';
 import EditPage from './pages/EditPage';
 import UsersPage from './pages/UsersPage';
+import GroupPage from './pages/GroupPage';
 
 function RoutesApp(){
     return(
@@ -24,9 +25,10 @@ function RoutesApp(){
                 <Route path="/grupos" element={<Grupos/>}/>
                 <Route path="/leitores" element={<Leitores/>}/>
                 <Route path="/bookpage" element={<BookPage/>}/>
-                <Route path="/authorpage" element={<AuthorPage/>}/>
-                <Route path="/editpage" element={<EditPage/>}/>
-                <Route path="/userspage" element={<UsersPage/>}/>
+                <Route path="autores/authorpage" element={<AuthorPage/>}/>
+                <Route path="editoras/editpage" element={<EditPage/>}/>
+                <Route path="leitores/userpage" element={<UsersPage/>}/>
+                <Route path="/grupos/grouppage" element={<GroupPage/>}/>
             </Routes>
         <Footer/>
         <Copyright/>

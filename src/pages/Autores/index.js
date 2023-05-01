@@ -8,7 +8,7 @@ function Autores(){
         <div className='pag-autor'>
 
             <div className='card-autor'>
-                <Link className='link-card-autor' to="#">
+                <Link className='link-card-autor' to="authorpage">
                     <img
                     className='img-card-autor'
                     src="https://picsum.photos/180/180?random=25"

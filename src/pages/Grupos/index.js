@@ -24,7 +24,7 @@ function Grupos(){
             </div>
 
             <div className='card-grupo'>
-                <Link className='link-card-grupo' to="#">
+                <Link className='link-card-grupo' to="grouppage">
                     <img
                     className='img-card-grupo'
                     src="https://picsum.photos/180/180?random=25"

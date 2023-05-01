@@ -7,7 +7,7 @@ function Leitores(){
         <div className='pag-leitor'>
 
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=25"
@@ -23,7 +23,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=24"
@@ -39,7 +39,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=22"
@@ -55,7 +55,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=23"
@@ -71,7 +71,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=27"
@@ -87,7 +87,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=28"
@@ -103,7 +103,7 @@ function Leitores(){
                 </Link>
             </div>
             <div className='card-leitor'>
-                <Link className='link-card-leitor' to="#">
+                <Link className='link-card-leitor' to="userpage">
                     <img
                     className='img-card-leitor'
                     src="https://picsum.photos/180/180?random=28"

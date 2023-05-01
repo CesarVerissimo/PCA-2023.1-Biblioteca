@@ -7,7 +7,7 @@ function Editoras(){
         <div className='pag-editora'>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=25"
@@ -39,7 +39,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=24"
@@ -71,7 +71,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=6"
@@ -103,7 +103,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=27"
@@ -135,7 +135,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=35"
@@ -167,7 +167,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=56"
@@ -199,7 +199,7 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editpage">
+                <Link className='link-card-editora' to="/editoras/editpage">
                     <img
                     className='img-card-editora'
                     src="https://picsum.photos/180/180?random=46"
