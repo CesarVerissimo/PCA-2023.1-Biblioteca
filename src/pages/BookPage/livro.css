@@ -145,6 +145,22 @@
     margin-right: 20px;
 }
 
+.container-tag:hover{
+    background-color: #E89212;
+    color: white;
+    transition: 0.3s;
+}
+
+.tags{
+    color: black;
+    text-decoration: none;
+}
+
+.tags:hover{
+    color: white;
+    transition: 0.3s;
+}
+
 .container-simi{
     display: flex;
     flex-direction: column;

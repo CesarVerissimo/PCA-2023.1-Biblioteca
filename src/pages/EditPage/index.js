@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {FaRegStar, FaBook, FaBookReader, FaUserFriends, FaThumbsUp, FaPen, FaExternalLinkAlt} from "react-icons/fa";
 import './editpage.css'
+import Livro from '../../Assets/Capas/exibicao';
+import Carousel from 'better-react-carousel';
 
 class EditPage extends React.Component {
     render() {
@@ -38,19 +40,41 @@ class EditPage extends React.Component {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
                 
-                <div className='container-total-livros-pub'>
-                    <span className='quant-livros-pub'>Últimos Lançamentos</span>
-                    <div className='container-livros-pub'>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=85' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=80' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=82' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=83' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=87' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=86' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=81' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=84' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=88' className='img-livros-autor'/></Link>
-                        <Link to={'/bookpage'}><img src='https://picsum.photos/160/220?random=89' className='img-livros-autor'/></Link>
+                <div className='container-total-livros-lidos'>
+                    <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>0 livros publicados</span>
+                    <div className='container-livros-lidos'>
+                        <Carousel cols={3} rows={3} gap={15}>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                                </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
+                            </Carousel.Item>
+                        </Carousel>
                     </div>
                 </div>
 

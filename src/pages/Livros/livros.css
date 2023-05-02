@@ -1,0 +1,24 @@
+.pag-livros{
+    display: contents;
+}
+
+.container-total-livros{
+    width: 70%;
+    display: flex;
+}
+
+.div-titulo-livros{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.container-total-livros .bhHnmT{
+    margin: 0;
+}
+
+.container-livros-pag{
+    margin-top: 30px;
+}

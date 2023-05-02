@@ -13,6 +13,8 @@ import AuthorPage from './pages/AuthorPage';
 import EditPage from './pages/EditPage';
 import UsersPage from './pages/UsersPage';
 import GroupPage from './pages/GroupPage';
+import Livros from './pages/Livros';
+
 
 function RoutesApp(){
     return(
@@ -28,7 +30,8 @@ function RoutesApp(){
                 <Route path="autores/authorpage" element={<AuthorPage/>}/>
                 <Route path="editoras/editpage" element={<EditPage/>}/>
                 <Route path="leitores/userpage" element={<UsersPage/>}/>
-                <Route path="/grupos/grouppage" element={<GroupPage/>}/>
+                <Route path="grupos/grouppage" element={<GroupPage/>}/>
+                <Route path="livros" element={<Livros/>}/>
             </Routes>
         <Footer/>
         <Copyright/>

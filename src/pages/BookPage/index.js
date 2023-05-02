@@ -1,6 +1,7 @@
 import React from 'react';
 import './livro.css';
 import {FaCheckCircle, FaHeart, FaPlusSquare, FaRegStar} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 class BookPage extends React.Component {
   render() {
@@ -47,9 +48,10 @@ class BookPage extends React.Component {
             </div>
 
             <div className='container-tags'>
-              <div className='container-tag'>
+              <Link className='tags'><div className='container-tag'>
                 <span>Tag 1</span>
               </div>
+              </Link>
               <div className='container-tag'>
                 <span>Tag 2</span>
               </div>

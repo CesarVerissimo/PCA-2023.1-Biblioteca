@@ -15,10 +15,17 @@ function Header(){
                 </Dropdown.Toggle>
                 
                 <Dropdown.Menu className='dropdown-nav'>
-                    <Dropdown.Item className='dropdown-item' href="#">Portugês</Dropdown.Item>
-                    <Dropdown.Item href="#">Matemática</Dropdown.Item>
-                    <Dropdown.Item href="#">Biologia</Dropdown.Item>
-                    <Dropdown.Item href="#">Colocar mais coisa</Dropdown.Item>
+                    <Dropdown.Item className='dropdown-item' href="../livros">Português</Dropdown.Item>
+                    <Dropdown.Item href="../livros" >Matemática</Dropdown.Item>
+                    <Dropdown.Item href="../livros">História</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Geografia</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Biologia</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Química</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Física</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Filosofia</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Sociologia</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Inglês</Dropdown.Item>
+                    <Dropdown.Item href="../livros">Infantil</Dropdown.Item>
                 </Dropdown.Menu>
 
             </Dropdown>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {FaStar, FaUsers, FaBook, FaCrown, FaUserFriends, FaThumbsUp, FaUser} from "react-icons/fa";
 import './userspage.css';
 import Carousel from 'better-react-carousel';
+import Livro from '../../Assets/Capas/exibicao';
 
 class UsersPage extends React.Component {
     render() {
@@ -39,34 +40,34 @@ class UsersPage extends React.Component {
                     <div className='container-livros-lidos'>
                         <Carousel cols={3} rows={3} gap={15}>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=85' className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro className='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=86'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                                 </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=87'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=88'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=89'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=81'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=82'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=83'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=84'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <Link to="/bookpage"><img src='https://picsum.photos/160/220?random=80'className='img-livros-autor'/></Link>
+                                <Link to="/bookpage"><Livro lassName='img-livros-autor'/></Link>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -77,7 +78,7 @@ class UsersPage extends React.Component {
                     <div className='container-livros-lidos'>
                         <Carousel cols={3} rows={1} gap={15}>
                             <Carousel.Item>
-                                <Link to="#"><img src='https://picsum.photos/150/150?random=70' className='img-grupos-user'/></Link>
+                                <Link to="#"><img src='https://picsum.photos/150/150?random=60' className='img-grupos-user'/></Link>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Link to="#"><img src='https://picsum.photos/150/150?random=70'className='img-grupos-user'/></Link>

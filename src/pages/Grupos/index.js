@@ -187,7 +187,7 @@ function Grupos(){
                     <button className='btn-pag'>3</button>
                     <button className='btn-pag'>4</button>
                     <button className='btn-pag'>5</button>
-                </div>
+            </div>
         </div>
     )
 }

@@ -1,10 +1,14 @@
+.pag-autor{
+    display: contents;
+}
+
 .card-autor{
     border: 1.5px solid #B3B3B3;
     box-shadow: 1px 1px 8px #B3B3B3;
     border-radius: 10px;
     flex-direction: row;
     margin-top: 30px;
-    width: 100%;
+    width: 1150px;
 }
 
 .card-autor:hover{
@@ -61,6 +65,11 @@ li{
     border-radius: 15px;
 }
     
+.container-livros-autor-card{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
 
 .img-card-autor{
     border-radius: 50%;
