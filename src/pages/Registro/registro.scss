@@ -1,0 +1,85 @@
+.register {
+  margin-top: 2em;
+  padding: 4rem 10rem;
+  height: 27rem;
+  margin-bottom: 5rem;
+  &__title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  &__container {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30rem;
+    width: 30rem;
+    padding: 5rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+
+    &:hover {
+      background-color: rgb(255, 211, 129);
+    }
+  }
+
+  &__text {
+    margin-top: 1rem;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: orange;
+    }
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .form-control {
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    border-bottom: 1.5px solid black;
+
+    &:focus {
+      box-shadow: none;
+      border-radius: 0;
+      border-bottom: 1.5px solid black;
+    }
+  }
+
+  .form-control-placeholder {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: all 200ms;
+    font-size: 16px;
+  }
+
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {
+    font-size: 16px;
+    transform: translate3d(0, -90%, 0);
+    top: 10px;
+  }
+}

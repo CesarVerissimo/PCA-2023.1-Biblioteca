@@ -14,7 +14,8 @@ import EditPage from './pages/EditPage';
 import UsersPage from './pages/UsersPage';
 import GroupPage from './pages/GroupPage';
 import Livros from './pages/Livros';
-
+import Login from './pages/Login/Login';
+import Registro from './pages/Registro/Registro';
 
 function RoutesApp(){
     return(
@@ -32,6 +33,8 @@ function RoutesApp(){
                 <Route path="leitores/userpage" element={<UsersPage/>}/>
                 <Route path="grupos/grouppage" element={<GroupPage/>}/>
                 <Route path="livros" element={<Livros/>}/>
+                <Route path="/login" element = {<Login/>}/>
+                <Route path="/criar-conta" element = {<Registro/>}/>
             </Routes>
         <Footer/>
         <Copyright/>
