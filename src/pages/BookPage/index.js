@@ -52,12 +52,14 @@ class BookPage extends React.Component {
                 <span>Tag 1</span>
               </div>
               </Link>
-              <div className='container-tag'>
+              <Link className='tags'><div className='container-tag'>
                 <span>Tag 2</span>
               </div>
-              <div className='container-tag'>
+              </Link>
+              <Link className='tags'><div className='container-tag'>
                 <span>Tag 3</span>
               </div>
+              </Link>
             </div>
 
             <div className='container-simi'>

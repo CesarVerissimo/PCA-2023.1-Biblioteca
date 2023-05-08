@@ -1,13 +1,16 @@
 import './header.css';
 import {Link} from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
-import {FaUserCircle, FaSistrix} from "react-icons/fa";
+import {FaUserCircle, FaSistrix} from "react-icons/fa"; 
+import Logo from '../../Assets/Imagens/lires-logo.png'
 
- 
 function Header(){
     return(
         <header>
-            <Link className='logo' to="/">Lires</Link>
+            <Link className='logo' to="/">
+            <img src={Logo} className='logo-lires'/>
+            <span>Lires</span>
+            </Link>
             
             <Dropdown className="navegar">
                 <Dropdown.Toggle variant='' className="navegar">

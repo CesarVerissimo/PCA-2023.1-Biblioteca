@@ -1,5 +1,5 @@
 .div-footer{
-    background-color: #E89212;
+    background-color: #FA8113;
     display: inline-flex;
     margin-top: 8%;
     flex-direction: row;
@@ -48,7 +48,7 @@ links-footer{
 .copyright-footer{
     width: 100%;
     display: flex;
-    background-color: #b6720d;
+    background-color: #ec6e00;
     color: black;
     justify-content: center;
     padding: 15px;

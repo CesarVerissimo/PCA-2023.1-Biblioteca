@@ -6,6 +6,10 @@ import CarLivros from '../../Assets/Multicarousel(livros)/multicarousel';
 import CarAutores from '../../Assets/Multicarousel(autores)/multicarousel';
 import CarEditoras from '../../Assets/Multicarousel(editoras)/multicarousel';
 import BookPage from '../BookPage';
+import {Link} from 'react-router-dom';
+import Poster1 from '../../Assets/Imagens/Frame 1.png'
+import Poster2 from '../../Assets/Imagens/Frame 2.png'
+import Poster3 from '../../Assets/Imagens/Frame 3.png'
 
 function Home(){
 
@@ -13,24 +17,25 @@ function Home(){
         <div className='div-home'>
           <div className='space'>
           <Carousel variant='dark' className='carrossel'>
-            <Carousel.Item interval={2000}>
-              <img 
+            
+            <Carousel.Item interval={3500}>
+              <Link to="/criar-conta"><img 
                 className='painel'
-                src="https://picsum.photos/1280/720?random=1"
+                src={Poster1}
                 alt="Image 1"
-              />
+              /></Link>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3500}>
               <img 
                 className='painel'
-                src="https://picsum.photos/1280/720?random=3"
+                src={Poster2}
                 alt="Image 2"
               />
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
               <img
                 className='painel' 
-                src="https://picsum.photos/1280/720?random=5"
+                src={Poster3}
                 alt="Image 3"
               />
             </Carousel.Item>
