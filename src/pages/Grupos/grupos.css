@@ -17,7 +17,7 @@
     border-radius: 10px;
     padding: 0px;
     color: black;
-    background-color: #F8B654;
+    background-color: #FA8113;
     border: none;
     outline: none;
     cursor: pointer;
@@ -30,7 +30,7 @@
 }
 
 .drop-fil-grupos{
-    background-color: #F8B654;
+    background-color: #FA8113;
 }
 
 .dropdown-fil-item{
@@ -39,7 +39,7 @@
 }
 
 .dropdown-fil-item:hover{
-    background-color: #E89212;
+    background-color: #ec6e00;
 }
 
 .dados-grupo{
@@ -75,7 +75,7 @@
 
 .link-card-grupo:hover{
     transition: 0.3s;
-    color: #E89212;
+    color: #FA8113;
 }
 
 .img-card-grupo{
