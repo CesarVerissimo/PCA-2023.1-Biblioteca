@@ -9,3 +9,12 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/PCA-2023.1-Biblioteca', {useNewUrlParser: true, useUnifiedTopology: true
+}).then(() => {
+ console.log('connected to db')
+}).catch((error) => {
+ console.log(error)
+});
