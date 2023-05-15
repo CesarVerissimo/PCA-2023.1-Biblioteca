@@ -58,7 +58,7 @@ function Registro() {
             </div>
             <span className="register__text">
               {" "}
-              Já possui conta? <Link>Entrar</Link>
+              Já possui conta? <Link to="/login">Entrar</Link>
             </span>
           </div>
         </div>

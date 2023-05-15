@@ -42,7 +42,7 @@ function Login() {
             </div>
             <span className="register__text">
               {" "}
-              Não possui conta? <Link>Registre-se</Link>
+              Não possui conta? <Link to="/criar-conta">Registre-se</Link>
             </span>
           </div>
         </div>

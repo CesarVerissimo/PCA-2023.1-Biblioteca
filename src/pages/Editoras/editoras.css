@@ -51,7 +51,7 @@
 .nome-editora{
     font-weight: bold;
     font-size: 18pt;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 li{
@@ -61,9 +61,14 @@ li{
 }
 
 .img-card-editora{
+    width: 180px;
+    height: 180px;
     border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #B3B3B3;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .img-card-livro{

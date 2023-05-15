@@ -1,26 +1,46 @@
 import {Link} from 'react-router-dom';
 import './editoras.css';
-import {FaBookReader, FaUserFriends, FaBook, FaPen} from "react-icons/fa";
 import Livro from '../../Assets/Capas/exibicao';
+import CardEditora from './editoras';
 
 function Editoras(){
     return(
         <div className='pag-editora'>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editoras/editpage">
+                <Link className='link-card-editora' to="../../editpage">
                     <img
                     className='img-card-editora'
-                    src="https://picsum.photos/180/180?random=25"
+                    src="https://99prod.s3.amazonaws.com/uploads/535bc560-1d6d-43a9-af72-015433dc1109/1907945_783207491757562_4091518735231097132_n.png"
                     />
-                    <div className='info-editora'>
+                    <div>
                         <ul className='lista-editora'>
-                            <li className='nome-editora'>Editora Atual</li>
-                            <li><FaBook className='i-pub'/>138 livros</li>
-                            <li><FaBookReader className='i-leit'/>2895 leitores</li>
-                            <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
-                            <li><FaPen className='i-esc'/>156 escritores</li>
+                                <li className='nome-editora'>Editora Moderna</li>
                         </ul>
+                    
+                        <CardEditora/>
+                    </div>
+                    <div className='container-livros-edit-card'>
+                        <Livro/>
+                        <Livro/>
+                        <Livro/>
+                    </div>
+                </Link>
+            </div>
+
+
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="../../editpage">
+                    <img
+                    className='img-card-editora'
+                    src="https://www.coletivoleitor.com.br/wp-content/uploads/2018/09/editora-atual.png"
+                    />
+                    <div>
+                        <ul className='lista-editora'>
+                                <li className='nome-editora'>Editora Atual</li>
+                        </ul>
+                    
+                        <CardEditora/>
                     </div>
                     <div className='container-livros-edit-card'>
                         <Livro/>
@@ -31,19 +51,17 @@ function Editoras(){
             </div>
 
             <div className='card-editora'>
-                <Link className='link-card-editora' to="/editoras/editpage">
+                <Link className='link-card-editora' to="../../editpage">
                     <img
                     className='img-card-editora'
-                    src="https://picsum.photos/180/180?random=24"
+                    src="https://pbs.twimg.com/profile_images/1420756133745020940/w-HBIH6U_400x400.jpg"
                     />
-                    <div className='info-editora'>
+                    <div>
                         <ul className='lista-editora'>
-                            <li className='nome-editora'>Editora do Brasil</li>
-                            <li><FaBook className='i-pub'/>138 livros</li>
-                            <li><FaBookReader className='i-leit'/>2895 leitores</li>
-                            <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
-                            <li><FaPen className='i-esc'/>156 escritores</li>
+                                <li className='nome-editora'>Nova Fronteira</li>
                         </ul>
+                    
+                        <CardEditora/>
                     </div>
                     <div className='container-livros-edit-card'>
                         <Livro/>
@@ -53,8 +71,89 @@ function Editoras(){
                 </Link>
             </div>
 
-            
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="../../editpage">
+                    <img
+                    className='img-card-editora'
+                    src="https://logospng.org/download/saraiva/logo-saraiva-4096.png"
+                    />
+                    <div>
+                        <ul className='lista-editora'>
+                                <li className='nome-editora'>Saraiva</li>
+                        </ul>
+                    
+                        <CardEditora/>
+                    </div>
+                    <div className='container-livros-edit-card'>
+                        <Livro/>
+                        <Livro/>
+                        <Livro/>
+                    </div>
+                </Link>
+            </div>
 
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="../../editpage">
+                    <img
+                    className='img-card-editora'
+                    src="https://i0.wp.com/ambition4clients.nl/wp-content/uploads/harpercollins.png?fit=500%2C500&ssl=1"
+                    />
+                    <div>
+                        <ul className='lista-editora'>
+                                <li className='nome-editora'>HarperCollins</li>
+                        </ul>
+                    
+                        <CardEditora/>
+                    </div>
+                    <div className='container-livros-edit-card'>
+                        <Livro/>
+                        <Livro/>
+                        <Livro/>
+                    </div>
+                </Link>
+            </div>
+
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="../../editpage">
+                    <img
+                    className='img-card-editora'
+                    src="https://cdn.worldvectorlogo.com/logos/editora-abril.svg"
+                    />
+                    <div>
+                        <ul className='lista-editora'>
+                                <li className='nome-editora'>Abril</li>
+                        </ul>
+                    
+                        <CardEditora/>
+                    </div>
+                    <div className='container-livros-edit-card'>
+                        <Livro/>
+                        <Livro/>
+                        <Livro/>
+                    </div>
+                </Link>
+            </div>
+
+            <div className='card-editora'>
+                <Link className='link-card-editora' to="../../editpage">
+                    <img
+                    className='img-card-editora'
+                    src="https://i0.wp.com/oficinaeditorial.com.br/wp-content/uploads/2020/02/logo-editora-do-brasil.png?ssl=1"
+                    />
+                    <div>
+                        <ul className='lista-editora'>
+                                <li className='nome-editora'>Editora do Brasil</li>
+                        </ul>
+                    
+                        <CardEditora/>
+                    </div>
+                    <div className='container-livros-edit-card'>
+                        <Livro/>
+                        <Livro/>
+                        <Livro/>
+                    </div>
+                </Link>
+            </div>
             <div className='btns-pags'>
                 <button className='btn-pag'>1</button>
                 <button className='btn-pag'>2</button>

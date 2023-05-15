@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {FaRegStar, FaBook, FaBookReader, FaUserFriends, FaThumbsUp} from "react-icons/fa";
 import Livro from '../../Assets/Capas/exibicao';
 import Carousel from 'better-react-carousel';
+import RandomUsers from '../../Assets/RandomUsers';
 
 class AuthorPage extends React.Component {
     render() {
@@ -80,14 +81,14 @@ class AuthorPage extends React.Component {
                     <div className='container-segs-autor'>
                         <span><FaUserFriends className='i-info-autor'/>0 seguidores</span>
                         <div className='container-seg-autor'>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=85' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=80' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=82' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=83' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=86' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=81' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=84' className='img-seg-autor'/></Link>
-                                    <Link to={'#'}><img src='https://picsum.photos/100/100?random=88' className='img-seg-autor'/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
+                                    <Link to={'#'}><RandomUsers/></Link>
                         </div>
                     </div>
 

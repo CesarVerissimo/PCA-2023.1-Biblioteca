@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {FaUsers, FaBook, FaKey, FaUserFriends, FaThumbsUp, FaCalendarAlt} from "react-icons/fa";
 import './grouppage.css';
 import Livro from '../../Assets/Capas/exibicao';
+import RandomUsers from '../../Assets/RandomUsers';
 
 import Carousel from 'better-react-carousel';
 
@@ -56,61 +57,63 @@ class GroupPage extends React.Component {
                 <div className='container-livros-lidos'>
                     <Carousel cols={5} rows={3} gap={15}>
                         <Carousel.Item>
-                            <Link to="../leitores/userpage"><img src='https://picsum.photos/100/100?random=8' className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=5'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                             </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=82'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=44'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=42'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=51'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=11'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=1'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=3'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=33'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item><Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=75'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=58'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=19'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=91'className='img-seg-autor'/></Link>
-                        </Carousel.Item><Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=55'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=66'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=77'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=87'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=7'className='img-seg-autor'/></Link>
-                        </Carousel.Item><Carousel.Item>
-                            <Link to="#"><img src='https://picsum.photos/100/100?random=10'className='img-seg-autor'/></Link>
+                            <Link to="../../userpage"><RandomUsers/></Link>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Link to="../../userpage"><RandomUsers/></Link>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Link to="../../userpage"><RandomUsers/></Link>
                         </Carousel.Item>
                     </Carousel>
                 </div>

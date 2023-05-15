@@ -29,10 +29,10 @@ function RoutesApp(){
                 <Route path="/leitores" element={<Leitores/>}/>
                 <Route path="/bookpage" element={<BookPage/>}/>
                 <Route path="autores/authorpage" element={<AuthorPage/>}/>
-                <Route path="editoras/editpage" element={<EditPage/>}/>
-                <Route path="leitores/userpage" element={<UsersPage/>}/>
-                <Route path="grupos/grouppage" element={<GroupPage/>}/>
-                <Route path="livros" element={<Livros/>}/>
+                <Route path="/editpage" element={<EditPage/>}/>
+                <Route path="/userpage" element={<UsersPage/>}/>
+                <Route path="/grouppage" element={<GroupPage/>}/>
+                <Route path="/livros" element={<Livros/>}/>
                 <Route path="/login" element = {<Login/>}/>
                 <Route path="/criar-conta" element = {<Registro/>}/>
             </Routes>

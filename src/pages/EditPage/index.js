@@ -4,6 +4,7 @@ import {FaRegStar, FaBook, FaBookReader, FaUserFriends, FaThumbsUp, FaPen, FaExt
 import './editpage.css'
 import Livro from '../../Assets/Capas/exibicao';
 import Carousel from 'better-react-carousel';
+import RandomUsers from '../../Assets/RandomUsers';
 
 class EditPage extends React.Component {
     render() {
@@ -82,14 +83,14 @@ class EditPage extends React.Component {
                     <div className='container-segs-autor'>
                         <span><FaUserFriends className='i-info-autor'/>0 seguidores</span>
                         <div className='container-seg-autor'>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=85' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=80' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=82' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=83' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=86' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=81' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=84' className='img-seg-autor'/></Link></td>
-                                    <td><Link to={'#'}><img src='https://picsum.photos/100/100?random=88' className='img-seg-autor'/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
+                                    <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
                         </div>
                     </div>
 
