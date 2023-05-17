@@ -7,6 +7,10 @@ import RandomUsers from '../../Assets/RandomUsers';
 
 function UserPage() {
   const [users, setUsers] = useState([]);
+  const randomLivros = Math.floor(Math.random() * 351) + 50;
+  const randomSegs = Math.floor(Math.random() * 2001) + 50;
+  const randomSeg = Math.floor(Math.random() * 201) + 2;
+  const randomFav = Math.floor(Math.random() * 51) +1;
 
   useEffect(() => {
     fetch('https://randomuser.me/api/?results=1')
@@ -32,10 +36,10 @@ function UserPage() {
 
             <div className='container-info-autor'>
                 <span><FaCrown className='i-info-autor'/>Profissional</span>
-                <span><FaBook className='i-info-autor'/>138 livros lidos</span>
-                <span><FaStar className='i-info-autor'/>10 favoritos</span>
-                <span><FaUserFriends className='i-info-autor'/>1667 seguidores</span>
-                <span><FaUser className='i-info-autor'/>21 seguindo</span>
+                <span><FaBook className='i-info-autor'/>{randomLivros} livros lidos</span>
+                <span><FaStar className='i-info-autor'/>{randomFav} favoritos</span>
+                <span><FaUserFriends className='i-info-autor'/>{randomSegs} seguidores</span>
+                <span><FaUser className='i-info-autor'/>{randomSeg} seguindo</span>
             </div>
         </div>
         <div container-geral-autor>
@@ -52,7 +56,7 @@ function UserPage() {
             </div>
             
             <div className='container-total-livros-lidos'>
-                <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>138 livros lidos</span>
+                <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>{randomLivros} livros lidos</span>
                 <div className='container-livros-lidos'>
                     <Carousel cols={3} rows={3} gap={15}>
                         <Carousel.Item>
@@ -117,7 +121,7 @@ function UserPage() {
                 <div className='container-livros-lidos'>
                     <Carousel cols={5} rows={3} gap={15}>
                         <Carousel.Item>
-                            <Link to="#"><RandomUsers/></Link>
+                            <a href="../../userpage"><RandomUsers/></a>
                         </Carousel.Item>
                         <Carousel.Item>
                             <Link to="#"><RandomUsers/></Link>

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import Livro from "../../Assets/Capas/exibicao";
+import React from 'react';
 import {FaBookReader, FaUserFriends, FaBook, FaPen} from "react-icons/fa";
 
 function CardEditora() {
@@ -17,7 +16,7 @@ function CardEditora() {
                             <li><FaBook className='i-pub'/>{randomLivros} livros</li>
                             <li><FaBookReader className='i-leit'/>{randomSegs} leitores</li>
                             <li><FaUserFriends className='i-seg'/>{randomLeit} seguidores</li>
-                            <li><FaPen className='i-esc'/>{randomEsc} escritores</li>
+                            <li><FaPen className='i-esc'/>{randomEsc} autores</li>
                         </ul>
                     </div>
     </div>

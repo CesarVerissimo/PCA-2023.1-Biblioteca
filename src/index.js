@@ -19,7 +19,7 @@ mongoose.connect('mongodb://localhost:27017/PCA-2023.1-Biblioteca', {useNewUrlPa
  console.log('connected to db')
 }).catch((error) => {
  console.log(error)
-});*/
+});
 
 var axios = require('axios');
 var data = JSON.stringify({
@@ -49,3 +49,4 @@ axios(config)
     .catch(function (error) {
         console.log(error);
     });
+*/

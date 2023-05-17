@@ -6,14 +6,20 @@ import Livro from '../../Assets/Capas/exibicao';
 import Carousel from 'better-react-carousel';
 import RandomUsers from '../../Assets/RandomUsers';
 
-class EditPage extends React.Component {
-    render() {
+function EditPage() {
+    const randomLivros = Math.floor(Math.random() * 351) + 100;
+    const randomSegs = Math.floor(Math.random() * 2001) + 200;
+    const randomLeit = Math.floor(Math.random() * 2001) + 200;
+    const randomEsc = Math.floor(Math.random() * 121) + 20;
+    const randomNota1 = Math.floor(Math.random() * 2) + 3;
+    const randomNota2 = Math.floor(Math.random() * 9);
+
       return (
         <div className="container-total-autor">
             <div className="container-tec-edit">
                 <div className="container-img-edit">
                     <img src="https://www.gm5.com.br/wp-content/uploads/2022/02/img-destaque-moderna-02.png"/>
-                    <span>0.0</span>
+                    <span>{randomNota1}.{randomNota2}</span>
                 </div>
 
                 <div className='container-class-autor'>
@@ -21,10 +27,10 @@ class EditPage extends React.Component {
                 </div>
 
                 <div className='container-info-autor'>
-                    <span><FaBook className='i-info-autor'/>0 livros puplicados</span>
-                    <span><FaBookReader className='i-info-autor'/>0 leitores</span>
-                    <span><FaUserFriends className='i-info-autor'/>0 seguidores</span>
-                    <span><FaPen className='i-info-autor'/>0 autores</span>
+                    <span><FaBook className='i-info-autor'/>{randomLivros} livros puplicados</span>
+                    <span><FaBookReader className='i-info-autor'/>{randomLeit} leitores</span>
+                    <span><FaUserFriends className='i-info-autor'/>{randomSegs} seguidores</span>
+                    <span><FaPen className='i-info-autor'/>{randomEsc} autores</span>
                     <span><FaExternalLinkAlt className='i-info-autor'/>Site oficial</span>
                 </div>
             </div>
@@ -42,7 +48,7 @@ class EditPage extends React.Component {
                 </div>
                 
                 <div className='container-total-livros-lidos'>
-                    <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>0 livros publicados</span>
+                    <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>{randomLivros} livros publicados</span>
                     <div className='container-livros-lidos'>
                         <Carousel cols={3} rows={3} gap={15}>
                             <Carousel.Item>
@@ -81,7 +87,7 @@ class EditPage extends React.Component {
 
                 <div className='container-segs-aval-autor'>
                     <div className='container-segs-autor'>
-                        <span><FaUserFriends className='i-info-autor'/>0 seguidores</span>
+                        <span><FaUserFriends className='i-info-autor'/>{randomSegs} seguidores</span>
                         <div className='container-seg-autor'>
                                     <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
                                     <td><Link to={'../../userpage'}><RandomUsers/></Link></td>
@@ -100,7 +106,6 @@ class EditPage extends React.Component {
         </div>
 
       );
-    }
-}
+};
 
 export default EditPage;

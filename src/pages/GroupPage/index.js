@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {FaUsers, FaBook, FaKey, FaUserFriends, FaThumbsUp, FaCalendarAlt} from "react-icons/fa";
+import {FaUsers, FaBook, FaKey, FaThumbsUp, FaCalendarAlt} from "react-icons/fa";
 import './grouppage.css';
 import Livro from '../../Assets/Capas/exibicao';
 import RandomUsers from '../../Assets/RandomUsers';
-
 import Carousel from 'better-react-carousel';
 
-class GroupPage extends React.Component {
-    render() {
+function GroupPage() {
+    const randomLivros = Math.floor(Math.random() * 351) + 100;
+    const randomSegs = Math.floor(Math.random() * 2001) + 200;
+
       return (
         <div className="container-total-autor">
             <div className="container-tec-autor">
@@ -21,9 +22,9 @@ class GroupPage extends React.Component {
                 </div>
 
                 <div className='container-info-autor'>
-                    <span><FaUsers className='i-info-autor'/>0 membros</span>
+                    <span><FaUsers className='i-info-autor'/>{randomSegs} membros</span>
                     <span><FaKey className='i-info-autor'/>Dono: Walter Branco</span>
-                    <span><FaBook className='i-info-autor'/>0 livros</span>
+                    <span><FaBook className='i-info-autor'/>{randomLivros} livros</span>
                     <span><FaCalendarAlt className='i-info-autor'/>Criado em: data</span>
                 </div>
             </div>
@@ -53,7 +54,7 @@ class GroupPage extends React.Component {
             </div>
                 
             <div className='container-total-livros-lidos'>
-                <span className='quant-livros-lidos'><FaUsers className='i-info-autor'/>0 membros</span>
+                <span className='quant-livros-lidos'><FaUsers className='i-info-autor'/>{randomSegs} membros</span>
                 <div className='container-livros-lidos'>
                     <Carousel cols={5} rows={3} gap={15}>
                         <Carousel.Item>
@@ -120,7 +121,7 @@ class GroupPage extends React.Component {
             </div>
 
             <div className='container-total-livros-lidos'>
-                <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>0 livros relacionados</span>
+                <span className='quant-livros-lidos'><FaBook className='i-info-autor'/>{randomLivros} livros relacionados</span>
                 <div className='container-livros-lidos'>
                     <Carousel cols={3} rows={3} gap={15}>
                         <Carousel.Item>
@@ -161,7 +162,6 @@ class GroupPage extends React.Component {
         </div>
 
       );
-    }
-}
+    };
 
 export default GroupPage;

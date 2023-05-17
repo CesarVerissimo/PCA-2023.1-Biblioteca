@@ -2,7 +2,7 @@ import axios from 'axios';
 
 async function obterLivrosEducativos() {
     try {
-    const res = await axios.get('http://openlibrary.org/subjects/textbooks.json?limit=300');
+    const res = await axios.get('http://openlibrary.org/subjects/textbooks.json?limit=137');
     const livros = res.data.works;
     return livros;
   } catch (err) {

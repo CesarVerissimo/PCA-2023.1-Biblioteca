@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 
 function RandomUsers2() {
   const [users, setUsers] = useState([]);
+  const randomLivros = Math.floor(Math.random() * 351) + 10;
+  const randomSegs = Math.floor(Math.random() * 2001) + 50;
 
   useEffect(() => {
     fetch('https://randomuser.me/api/?results=1')
@@ -27,9 +29,9 @@ function RandomUsers2() {
                     <div className='info-leitor'>
                         <ul className='lista-leitor'>
                             <li className='nome-leitor'>{user.name.first} {user.name.last}</li>
-                            <li><FaBook className='i-lidos'/>138 livros lidos</li>
+                            <li><FaBook className='i-lidos'/>{randomLivros} livros lidos</li>
                             <li><FaCrown className='i-rank'/>Profissional</li>
-                            <li><FaUserFriends className='i-seg'/>1667 seguidores</li>
+                            <li><FaUserFriends className='i-seg'/>{randomSegs} seguidores</li>
                         </ul>
                     </div>
                 </Link>
