@@ -113,4 +113,5 @@ header{
 .user{
     display: inline-flex;
     font-size: xxx-large;
+    color: black;
 }
