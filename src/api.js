@@ -1,26 +1,22 @@
-import React, {useEffect} from 'react';
-import {useUser} from '@realm/react';
-
 const express = require ('express');
-const router = express.Router();
+const cors = require ('cors');
+const { MongoClient, ServerApiVersion } = require('mongodb');
+require('dotenv').config();
+const port = process.env.PORT || 3000;
+const app = express();
 
-// TODO: adicionar novo ponto de interesse
-exports.add = function (req, res) {
-    res.send({type: 'POST'});
-  };// TODO: atualizar ponto de interesse
-  exports.update = function (req, res) {
-    res.send({type: 'PUT'});
-  };// TODO: apagar ponto de interesse
-  exports.delete = function (req, res) {
-    res.send({type: 'DELETE'});
-  };
-function UserApiKeys() {
-  const user = useUser();
-  async function createUserApiKey() {
-    const apiKey = await user?.apiKeys.create('mySecretKey');
-    // ...Do something with API key like save it
-    // or share it with external service that authenticates
-    // on user's behalf.
-  }
-  // ...
-}
+// middleware
+app.use(cors());
+app.use(express.json());
+
+const uri = 'mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@clusterdeteste.1ehvhav.mongodb.net/?retryWrites=true&w=majority';
+console.log(uri);
+
+// setup root 
+app.get('/', (req, res) => {
+  res.send('Server is running...');
+})
+
+app.listen(port, () => {
+  console.log('Listening to port ', port);
+});

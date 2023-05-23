@@ -13,6 +13,10 @@ root.render(
 //Coloquei como comentário só pra não ficar dando erro
 
 /*const mongoose = require('mongoose');
+const axios = require('axios');
+const express = require('express');
+const app = express();
+app.use(express.json());
 
 mongoose.connect('mongodb://localhost:27017/PCA-2023.1-Biblioteca', {useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => {
@@ -20,6 +24,20 @@ mongoose.connect('mongodb://localhost:27017/PCA-2023.1-Biblioteca', {useNewUrlPa
 }).catch((error) => {
  console.log(error)
 });
+
+// TODO: listar pontos de interesse da BD
+  exports.details = function (req, res) {
+    res.send({type: 'GET'});
+  };// TODO: adicionar novo ponto de interesse
+  exports.add = function (req, res) {
+    res.send({type: 'POST'});
+  };// TODO: atualizar ponto de interesse
+  exports.update = function (req, res) {
+    res.send({type: 'PUT'});
+  };// TODO: apagar ponto de interesse
+  exports.delete = function (req, res) {
+    res.send({type: 'DELETE'});
+  };
 
 var axios = require('axios');
 var data = JSON.stringify({
