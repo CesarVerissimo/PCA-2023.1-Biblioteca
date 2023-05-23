@@ -9,13 +9,16 @@
     justify-content: center;
     width: 100%;
     height: 55vh;
+    background-color: gray;
+    z-index: 10;
+    filter: none;
 }
   
 .background-img {
   position: absolute;
   width: 100%;
   height: 65vh;
-  filter: blur(8px);
+  filter: blur(0.65rem);
 }
 
 .foreground-img {
@@ -26,13 +29,14 @@
 
 .painel-livro-container{
     display: flex;
-    background-color: #FA8119;
+    background-color: #FA8113;
     width: 100%;
     height: auto;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: black;
@@ -55,10 +59,33 @@
     justify-content: space-between;
 }
 
+.container-i-livro button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fab143;
+    margin-right: 10px;
+    padding: 5px;
+    width: 88.7px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+}
+
+.container-i-livro button:hover{
+    background-color: #faa931;
+    transition: 0.3s;
+}
+
 .i-livro{
-    margin-left: 40px;
-    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
     font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .i-leg{
@@ -66,13 +93,6 @@
     flex-direction: column;
     align-items: center;
 }
-
-.i-leg button{
-    background-color: transparent;
-    border: none;
-}
-
-
 
 .container-class-livro{
     display: flex;
@@ -113,9 +133,9 @@
 .container-total-livro{
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .container-sobre-livro{
@@ -146,7 +166,7 @@
 }
 
 .container-tag:hover{
-    background-color: #FA8119;
+    background-color: #FA8113;
     color: white;
     transition: 0.3s;
 }
@@ -172,6 +192,14 @@
     margin-bottom: 10px;
 }
 
+.container-livros-simi{
+    display: flex;
+}
+
+.container-livros-simi .bhHnmT{
+    margin: 0;
+}
+
 .img-simi{
     display: inline;
     width: fit-content;
@@ -180,11 +208,48 @@
     border: 1px solid rgba(0, 0, 0, 0.3);;
 }
 
+.container-res{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-res span{
+    margin-bottom: 20px;
+}
+
+.container-user-res{
+    display: flex;
+    width: 100%;
+}
+
+.user-res{
+    font-size: xxx-large;
+    color: black;
+    margin-right: 20px;
+}
+
+.res{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    resize: none;
+    outline: black;
+}
+
+.link-res-conta{
+    width: 100%;
+}
+
 .linha-livro{
     width: 1px;
-    height: 100vh;
+    height: 110vh;
     border: none;
-    border-left: 1px solid #000;
+    border-left: 1px solid black;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 50px;
@@ -193,12 +258,14 @@
     background-color: transparent;
 }
 
+.container-total-tec-livro{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .container-tec-livro{
     display: flex;
     flex-direction: column;
-    
-    width: 100%;
-    
 }
 
 .img-edit{
@@ -219,7 +286,6 @@
     flex-direction: row;
     margin-top: 20px;
     margin-bottom: 30px;
-    justify-content: space-between;
 }
 
 .container-sit span{
@@ -229,6 +295,9 @@
     background-color: #fab143 ;
     border-radius: 15px;
     padding: 5px;
+    margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    width: 100px;
+    justify-content: center;
 }
