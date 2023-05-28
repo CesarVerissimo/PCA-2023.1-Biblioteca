@@ -1,0 +1,86 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 3rem;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-items: center;
+  //   align-items: center;
+
+  //lado esquerdo da section
+  &__left {
+    width: 20rem;
+  }
+
+  //imagem
+  &__image {
+    margin-left: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+  }
+
+  //campo do nome
+  &__name {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    margin-left: 2rem;
+  }
+
+  //lista
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 14px;
+
+    &-item {
+      width: 15rem;
+      margin-top: 0.9em;
+      cursor: pointer;
+
+      &:hover {
+        border-radius: 10px;
+        background-color: rgb(248, 196, 99);
+      }
+    }
+  }
+
+  //lado direito da section
+  &__right {
+    width: 5rem;
+
+    &-email {
+      margin-top: 16px;
+    }
+
+    &-button {
+      .btn {
+        background-color: rgb(211, 211, 211);
+        transition: 2s ease-in-out;
+
+        &:hover {
+          background-color: gray;
+        }
+      }
+    }
+    .textarea {
+      margin-top: 15px;
+    }
+    textarea {
+      resize: none;
+      border-radius: 10px;
+    }
+    input {
+      width: 20rem;
+      border: 0;
+      border-bottom: 1px solid #000000;
+      font-size: 16px;
+    }
+  }
+  .vertical-hr {
+    border-left: 2px solid black;
+    height: 500px;
+    
+  }
+}

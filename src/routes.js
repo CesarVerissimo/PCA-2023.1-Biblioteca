@@ -16,6 +16,7 @@ import GroupPage from './pages/GroupPage';
 import Livros from './pages/Livros';
 import Login from './pages/Login/Login';
 import Registro from './pages/Registro/Registro';
+import Perfil from './pages/Perfil/perfil';
 
 function RoutesApp(){
     return(
@@ -35,6 +36,7 @@ function RoutesApp(){
                 <Route path="/livros" element={<Livros/>}/>
                 <Route path="/login" element = {<Login/>}/>
                 <Route path="/criar-conta" element = {<Registro/>}/>
+                <Route path="/perfil" element = {<Perfil/>}/>
             </Routes>
         <Footer/>
         <Copyright/>

@@ -1,0 +1,64 @@
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 3rem;
+}
+.profile__left {
+  width: 20rem;
+}
+.profile__image {
+  margin-left: 2rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+.profile__name {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: black;
+  margin-left: 2rem;
+}
+.profile__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 14px;
+}
+.profile__list-item {
+  width: 15rem;
+  margin-top: 0.9em;
+  cursor: pointer;
+}
+.profile__list-item:hover {
+  border-radius: 10px;
+  background-color: rgb(248, 196, 99);
+}
+.profile__right {
+  width: 5rem;
+}
+.profile__right-email {
+  margin-top: 16px;
+}
+.profile__right-button .btn {
+  background-color: rgb(211, 211, 211);
+  transition: 2s ease-in-out;
+}
+.profile__right-button .btn:hover {
+  background-color: gray;
+}
+.profile__right .textarea {
+  margin-top: 15px;
+}
+.profile__right textarea {
+  resize: none;
+  border-radius: 10px;
+}
+.profile__right input {
+  width: 20rem;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  font-size: 16px;
+}
+.profile .vertical-hr {
+  border-left: 2px solid black;
+  height: 500px;
+}/*# sourceMappingURL=perfil.css.map */

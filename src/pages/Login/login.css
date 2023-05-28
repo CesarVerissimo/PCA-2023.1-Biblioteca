@@ -3,7 +3,6 @@
   padding: 4rem 10rem;
   height: 27rem;
   margin-bottom: 5rem;
-  color: black;
 }
 .login__title {
   text-align: center;
@@ -37,7 +36,7 @@
   transition-duration: 0.4s;
 }
 .login__button:hover {
-  background-color: rgb(255, 211, 129);
+  background-color: rgb(255, 209, 125);
 }
 .login__text {
   text-transform: none;
