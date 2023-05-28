@@ -1,6 +1,6 @@
 import RoutesApp from "./routes";
-//const express = require("express");
 //const app = express();
+//const cors = require("cors");
 
 function App() {
   return (

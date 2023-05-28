@@ -1,9 +1,11 @@
 import React, {useEffect} from 'react';
 import {useUser} from '@realm/react';
 
-const express = require ('express');
-const router = express.Router();
+const express = require ('express')
+const collection = require('/mongo')
+const cors = require("cors")
 
+/*
 // TODO: adicionar novo ponto de interesse
 exports.add = function (req, res) {
     res.send({type: 'POST'});
@@ -23,4 +25,4 @@ function UserApiKeys() {
     // on user's behalf.
   }
   // ...
-}
+}*/
