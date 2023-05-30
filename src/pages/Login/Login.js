@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../Login/login.css";
 
 function Login() {
+
+  const history=useNavigate();
 
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
@@ -15,6 +17,18 @@ function Login() {
 
       await axios.post("https://localhost:3000/",{
         email,password
+      })
+      .then(res=>{
+        if(res.data="exist"){
+          history("/pages/Home")
+        }
+        else if(res.data="notexist"){
+          alert("Usuario não se registrou. Gostaria de se registrar?")
+        }
+      })
+      .catch(e=>{
+        alert("Senha ou Email incorreto!")
+        console.log(e);
       })
 
     }
@@ -35,7 +49,6 @@ function Login() {
                 type="email"
                 className="form-control"
                 id="email"
-                onChange={(e)=>{setEmail(e.target.value)}}
                 required
               />
               <label className="form-control-placeholder" for="email">
@@ -60,7 +73,7 @@ function Login() {
           <div className="register__content">
             <div className="button">
               {" "}
-              <button className="register__button" onClick={submit}>Entrar</button>
+              <button className="register__button">Entrar</button>
             </div>
             <span className="register__text">
               {" "}
