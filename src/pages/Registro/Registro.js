@@ -89,7 +89,7 @@ function Registro() {
           <div className="register__content">
             <div className="button">
               {" "}
-              <button className="register__button" onClick={submit}>Entrar</button>
+              <button className="register__button" onClick={submit}>Criar Conta</button>
             </div>
             <span className="register__text">
               {" "}

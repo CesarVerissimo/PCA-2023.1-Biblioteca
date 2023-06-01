@@ -1,6 +1,6 @@
 import React,  { useEffect, useState } from 'react';
 import './livro.css';
-import {FaRegCheckCircle, FaRegHeart, FaRegPlusSquare, FaRegStar, FaUserCircle} from "react-icons/fa";
+import {FaRegCheckCircle, FaRegHeart, FaRegPlusSquare, FaRegStar, FaUserCircle, FaStar} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Livro from '../../Assets/Capas/exibicao';
@@ -29,7 +29,7 @@ function BookPage() {
   }, [bookId]);
 
   if (!bookInfo) {
-    return <div>Carregando...</div>;
+    return <div className='container-load'>Carregando...</div>;
   }
 
   const title = bookInfo.title.replace("dais", "dois");
@@ -71,7 +71,7 @@ function BookPage() {
             </div>
 
             <div className='container-tags'>
-              <Link className='tags'><div className='container-tag'>
+              <Link to="../../livros" className='tags'><div className='container-tag'>
                 <span>{subjects[13]}</span>
               </div>
               </Link>
@@ -120,8 +120,8 @@ function BookPage() {
             <div className='container-user-res'>
               
               <FaUserCircle className='user-res'/>
-              <Link to="/criar-conta#topo" className='link-res-conta'>
-              <textarea className='res' placeholder='Escreva sua resenha'></textarea>
+              <Link to="/login" className='link-res-conta'>
+              <textarea className='res' placeholder='Escreva sua resenha...'></textarea>
               </Link>
             </div>
             </div>
@@ -132,7 +132,7 @@ function BookPage() {
 
           <div className='container-tec-livro'>
             <div className='container-info-livro'>
-              <img src='https://picsum.photos/100/100?random=51' className='img-edit'/> {/*Foto da editora*/}
+              <img src='https://media.licdn.com/dms/image/C4D0BAQEKApQJXez9mw/company-logo_200_200/0/1519862376768?e=2147483647&v=beta&t=Qi2LGsqwbeKvoQEuWCkzTQcxsO9B29X52ceOgjL-Tp8' className='img-edit'/> 
               <span>Ano: {first_publish_date}</span>
               <span>Autor: Jorge Amado</span>
               <span>Páginas: 395</span>
@@ -154,6 +154,31 @@ function BookPage() {
 
             <div className='container-avals'>
               <span>Avaliações</span>
+            <div className='container-star'>
+              <span>5</span>
+              <div className='i-aval'><FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/></div>
+              <span>93%</span>
+            </div>
+            <div className='container-star'>
+              <span>4</span>
+              <div className='i-aval'><FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaRegStar/></div>
+              <span>5%</span>
+            </div>
+            <div className='container-star'>
+              <span>3</span>
+              <div className='i-aval'><FaStar/> <FaStar/> <FaStar/> <FaRegStar/> <FaRegStar/></div>
+              <span>2%</span>
+            </div>
+            <div className='container-star'>
+              <span>2</span>
+              <div className='i-aval'><FaStar/> <FaStar/> <FaRegStar/> <FaRegStar/> <FaRegStar/></div>
+              <span>0%</span>
+            </div>
+            <div className='container-star'>
+              <span>1</span>
+              <div className='i-aval'><FaRegStar/> <FaRegStar/> <FaRegStar/> <FaRegStar/> <FaRegStar/></div>
+              <span>0%</span>
+            </div>
             </div>
           </div>
           </div>

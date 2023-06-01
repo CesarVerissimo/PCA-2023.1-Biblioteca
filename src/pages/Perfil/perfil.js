@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import {FaCrown, FaUserAlt, FaLock} from "react-icons/fa"
 import "../Perfil/perfil.css";
 
 function perfil() {
@@ -16,9 +17,9 @@ function perfil() {
           </figure>
           <h3 className="profile__name">nome</h3>
           <ul className="profile__list">
-            <li className="profile__list-item">Ranking</li>
-            <li className="profile__list-item">Informação Pessoal</li>
-            <li className="profile__list-item">Segurança e privacidade</li>
+            <li className="profile__list-item"><FaCrown className='i-info-autor'/>Ranking</li>
+            <li className="profile__list-item"><FaUserAlt className='i-info-autor'/>Informações Pessoais</li>
+            <li className="profile__list-item"><FaLock className='i-info-autor'/>Segurança e privacidade</li>
           </ul>
         </div>
         <div className="vertical-hr"></div>

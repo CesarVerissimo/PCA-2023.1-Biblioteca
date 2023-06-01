@@ -3,6 +3,7 @@
   padding: 4rem 10rem;
   height: 27rem;
   margin-bottom: 5rem;
+  color: black;
 }
 .login__title {
   text-align: center;
@@ -30,7 +31,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
-  background-color: orange;
+  background-color: #FA8113;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   font-weight: bold;
   transition-duration: 0.4s;
@@ -45,7 +46,7 @@
 }
 .login__text a {
   text-decoration: none;
-  color: orange;
+  color: #FA8113;
 }
 .login .form-group {
   position: relative;
