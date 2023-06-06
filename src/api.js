@@ -12,6 +12,9 @@ app.use(express.json());
 const uri = 'mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@clusterdeteste.1ehvhav.mongodb.net/?retryWrites=true&w=majority';
 console.log(uri);
 
+import dotenv from "dotenv";
+dotenv.config();
+
 // setup root 
 app.get('/', (req, res) => {
   res.send('Server is running...');
